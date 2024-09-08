@@ -1,0 +1,5 @@
+ep41 JSX
+========
+- jsx tags are not the same as html codes.
+- for eg; 'class' in html is 'className' in jsx.
+- always wrap with '<dig> jsx </div>' tag. => parent element
