@@ -19,12 +19,16 @@
         Footer
     </footer>
 
-    <script type="text/babel">
+    <script type="text/babel">        
         const Main = () => { // react retrun jsx (html template)
+            let name = 'Hi There'
+            let number = 20
             return (
                     <div>
-                        Hello World. This is main tag.
-                    </div>)
+                        <h1>{name.toUpperCase()}</h1>
+                        <p>{number}</p>
+                    </div>
+                    )
         }
         let rootContainer = document.getElementById('main')
 
